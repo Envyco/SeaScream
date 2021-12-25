@@ -201,7 +201,9 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-       
+        <a href={CONFIG.MARKETPLACE_LINK}>
+          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+        </a>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           
@@ -245,9 +247,16 @@ function App() {
                 textAlign: "center",
               }}
             >
-             
-
-             
+              <StyledButton
+                onClick={(e) => {
+                  window.open("/config/roadmap.pdf", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Roadmap
+              </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
@@ -406,7 +415,16 @@ function App() {
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
-         
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
+            successfully mint your NFT. We recommend that you don't lower the
+            gas limit.
+          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
