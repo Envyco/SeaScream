@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0xcab38cca737b4318767b14b3c4ec635e19a623c6",
-  "SCAN_LINK": "https://polygonscan.com/address/0xcab38cca737b4318767b14b3c4ec635e19a623c6",
+  "CONTRACT_ADDRESS": "0xC6e4D64ca9d982FD6080E9178cF440f9b96ABABb",
+  "SCAN_LINK": "https://polygonscan.com/address/0xC6e4D64ca9d982FD6080E9178cF440f9b96ABABb",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "FRUITS",
-  "SYMBOL": "FRU",
+  "NFT_NAME": "Half A Lemon",
+  "SYMBOL": "LEMONS",
   "MAX_SUPPLY": 100,
-  "WEI_COST": 50000000000000000,
-  "DISPLAY_COST": 0.05,
+  "WEI_COST": 500000000000000000,
+  "DISPLAY_COST": 0.5,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/half-a-lemon",
