@@ -1,12 +1,12 @@
 {
-  "CONTRACT_ADDRESS": "0xdc95B87C4cc3F735aAefac72A5556ef2c42DD9f6",
-  "SCAN_LINK": "https://polygonscan.com/address/0xdc95b87c4cc3f735aaefac72a5556ef2c42dd9f6",
+  "CONTRACT_ADDRESS": "0xcab38cca737b4318767b14b3c4ec635e19a623c6",
+  "SCAN_LINK": "https://polygonscan.com/address/0xcab38cca737b4318767b14b3c4ec635e19a623c6",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "FRUIT",
+  "NFT_NAME": "FRUITS",
   "SYMBOL": "FRU",
   "MAX_SUPPLY": 100,
   "WEI_COST": 50000000000000000,
