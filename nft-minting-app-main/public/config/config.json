@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0xb5C88cB8A995a69a0FB34017F59848A0dD86F2D6",
-  "SCAN_LINK": "https://polygonscan.com/address/0xb5C88cB8A995a69a0FB34017F59848A0dD86F2D6",
+  "CONTRACT_ADDRESS": "0x2F958bD6B838E7299dc67cD9b2c2F88280425EA9",
+  "SCAN_LINK": "https://polygonscan.com/address/0x2f958bd6b838e7299dc67cd9b2c2f88280425ea9",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "FRUITY",
+  "NFT_NAME": "FRUITY TESTING",
   "SYMBOL": "FRUITYNFT",
   "MAX_SUPPLY": 100,
-  "WEI_COST": 50000000000000000,
-  "DISPLAY_COST": 0.5,
+  "WEI_COST": 20000000000000000,
+  "DISPLAY_COST": 0.02,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/fruits-r4qssjkijw",
