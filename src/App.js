@@ -196,18 +196,18 @@ function App() {
   return (
     <s.Screen>
              
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 3 }} test>
 
 
           
-          <s.SpacerLarge />
+          
           <s.Container
             flex={2}
             jc={"center"}
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              padding: 24,
+              padding: 3,
               borderRadius: 24,
               border: "4px dashed var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
