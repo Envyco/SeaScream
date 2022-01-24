@@ -223,18 +223,18 @@ function App() {
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
-            <s.TextDescription
+            <s.TextMini
               style={{
                 textAlign: "center",
                 color: "var(--primary-text)",
               }}
             >
               <StyledLink 
-              style={{ textAlign: "center", color: "var(--accent-text)" }}
+              style={{ textAlign: "center",  color: "var(--accent-text)" }}
                 target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 42)}
               </StyledLink>
-            </s.TextDescription>
+            </s.TextMini>
             
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
